@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# IDEs / editors
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Xcode - machine-specific user data (contains absolute local paths)
+**/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
