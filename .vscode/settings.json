@@ -1,0 +1,6 @@
+{
+  "dart.previewFlutterUiGuides": false,
+  "dart.closingLabels": false,
+  "dart.flutterGutterIcons": true
+  // "dart.lineLength": 120
+}
