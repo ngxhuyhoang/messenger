@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Flutter Watch Build Runner",
+      "type": "shell",
+      "command": "dart run build_runner watch -d",
+      "options": {
+        "cwd": "${workspaceFolder}/flutter-app"
+      },
+      "isBackground": true,
+      "problemMatcher": ["$dart-build_runner"]
+    }
+  ]
+}
